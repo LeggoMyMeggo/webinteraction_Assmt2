@@ -8,11 +8,8 @@ body {
 
 
 .hero-unit {
-	background-image: url(../img/banner1.png);
-	background-repeat: none;
-	color: #fff;
-	text-shadow: 1px 1px 3px #2d2a40;
-    filter: dropshadow(color=#2d2a40, offx=1, offy=1);
+	background: none;
+	color: #eee;
 	}
 
 .hero-unit h1 {
@@ -25,6 +22,11 @@ h3 {
 	text-align: center;
 	}
 	
+.carousel-caption h4 {
+	font-size: 30px;
+	color: #24a3bf;
+	}
+
 footer {
 	paddign: 150px;
 	text-align: center;
@@ -33,4 +35,8 @@ footer {
     -moz-border-radius: 5px;
 	-o-border-radius: 5px;
     border-radius: 5px;
+	}
+	
+.btn {
+	margin: 5px;
 	}
